@@ -7,7 +7,7 @@ output "private_ip" {
 }
 
 output "instance_id" {
-    value = aws_instance.this.instance_id
+    value = aws_instance.this.id
 }
 
 
